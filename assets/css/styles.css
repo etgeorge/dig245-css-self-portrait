@@ -1,2 +1,40 @@
 
 /* css */
+.face{
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: bisque;
+    margin: 0 auto;
+}
+
+.eyes{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.eye{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 80px;
+    
+}
+
+.nose{
+    width: 30px;
+    height: 80px;
+    background-color: rgb(204, 182, 149);
+    margin: 0 auto;
+}
+
+.mouth{
+    width: 80px;
+    height: 15px;
+    background-color: red;
+    margin: 20px auto;
+}
+

@@ -5,6 +5,7 @@
     border-radius: 50%;
     background-color: bisque;
     position: absolute;
+    margin-top: 30px;
 
 }
 
@@ -71,10 +72,6 @@
     margin-top: 100px;
 }
 
-.rightear {
-    margin-left: 100px;
-}
-
 .leftbar,
 .rightbar {
     background-color: black;
@@ -82,27 +79,27 @@
     height: 150px;
     width: 30px;
     border-radius: 100px 0 0;
-    margin-left: 10px;
+
 }
 
 .middlebar {
     background-color: black;
     height: 30px;
-    width: 150px;
+    width: 100px;
     margin-top: 10px;
     border-radius: 100% 100% 0 0;
+
 }
 
 .rightbar {
     border-radius: 0 100px 0 0px;
     transform: rotate(-30deg);
-    margin-right: -93px;
-    
 }
 
 .headphones {
     display: flex;
     width: 500px;
+    margin-bottom: 250px;
     z-index: 10;
     justify-content: center;
 }
